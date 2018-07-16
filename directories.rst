@@ -30,11 +30,11 @@ for API functions and macros.
 Port-specific Code
 ==================
 
-The directories such as ``esp8266``, ``cc3200``, ``pic16bit``, ``teensy``,
-``stmhal``, ``bare-arm``, ``qemu-arm``, ``unix`` and ``windows`` contain code
-and tools specific to particular ports of MicroPython. If you are working on a
-feature to be added for a specific hardware, this is probably the best place to
-put your files.
+Inside ``ports`` there are directories containing port-specific MicroPython
+code and tools. These ports include ``esp8266``, ``esp32``, ``cc3200``,
+``pic16bit``, ``teensy``, ``stmhal``, ``bare-arm``, ``qemu-arm``, ``zepher``,
+``unix`` and ``windows``. If you are working on a feature to be added for
+*specific* hardware, this is probably the best place to put your files.
 
 
 Minimal Port
